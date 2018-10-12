@@ -8,7 +8,7 @@ if(!$conn){
 function insert($nim,$nama,$kelas,$kelamin,$hobi,$fakultas,$alamat)
 {
     Global $conn;
-    mysqli_query($conn,"INSERT INTO user VALUES( '$nama','$nim','$kelas','$kelamin','$hobi','$fakultas','$alamat')");
+    mysqli_query($conn,"INSERT INTO user VALUES('$nama','$nim','$kelas','$kelamin','$hobi','$fakultas','$alamat')");
     echo "<script>alert('Anda Telah Terdaftar')</script>";
     // $query= mysqli_query($conn,"SELECT * FROM t_jurnal1  WHERE  nim='$nim'");
     // $data= mysqli_fetch_array($query);
@@ -39,6 +39,7 @@ function get($nim)
     return $data;
     // header("location:soal2.php");   
 }
+
 
 
 

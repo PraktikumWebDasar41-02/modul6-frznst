@@ -32,6 +32,7 @@ if (isset($_POST['submit'])) {
 			}
 			else{
 				echo "<script>alert('Anda Belum Terdaftar')</script>";
+				
 			}
 
 			

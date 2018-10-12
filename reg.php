@@ -42,6 +42,7 @@ if (isset($_POST['submit'])) {
 	else{
 		insert($nim,$nama,$kelas,$kelamin,$hobi,$fakultas,$alamat);
 		header('location:log.php');
+	
 
 
 
